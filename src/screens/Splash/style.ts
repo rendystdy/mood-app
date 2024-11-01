@@ -6,7 +6,11 @@ const styles = StyleSheet.create({
 		flex: 1,
 		justifyContent: 'center',
 		alignItems: 'center',
-		backgroundColor: Colors.black.default,
+		backgroundColor: Colors.white.default,
+	},
+	rowCenter: {
+		flexDirection: 'row',
+		alignItems: 'center',
 	},
 });
 

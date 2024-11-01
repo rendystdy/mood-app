@@ -1,7 +1,7 @@
 
 import { createNavigationContainerRef, StackActions, CommonActions } from '@react-navigation/native';
 
-import { screens } from '../router/screens';
+import { StackScreens as screens } from '../router/screens';
 
 export const navigationRef = createNavigationContainerRef();
 

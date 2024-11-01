@@ -1,9 +1,11 @@
 import Splash from './Splash';
 import Home from './Home';
-import CreateNote from './CreateNote';
+import Statistics from './Statistics';
+import Settings from './Settings';
 
 export {
 	Splash,
 	Home,
-	CreateNote,
+	Statistics,
+	Settings,
 };

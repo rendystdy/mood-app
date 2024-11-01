@@ -4,19 +4,19 @@ import authReducers from './auth/auth.reducer';
 import miscAction from './misc/misc.action';
 import miscReducers from './misc/misc.reducer';
 
-import notesAction from './notes/notes.action';
-import notesReducers from './notes/notes.reducer';
+import moodsAction from './moods/moods.action';
+import moodsReducers from './moods/moods.reducer';
 
 const Actions = {
 	authAction,
 	miscAction,
-	notesAction,
+	moodsAction,
 };
 
 const Reducers = {
 	authReducers,
 	miscReducers,
-	notesReducers,
+	moodsReducers,
 };
 
 export {

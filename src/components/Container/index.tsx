@@ -4,6 +4,7 @@ import { SafeAreaView } from 'react-native-safe-area-context';
 
 import { ComponentInterface } from '@interfaces';
 import { styles } from './styles';
+import { Colors } from '@constant';
 
 const Container: React.FC<ComponentInterface.IContainer> = props => {
 
@@ -35,7 +36,9 @@ const Container: React.FC<ComponentInterface.IContainer> = props => {
 					noPaddingHorizontal
 				)
 			}>
-			<StatusBar barStyle={ barStyle } />
+			<StatusBar
+				barStyle={ barStyle }
+				backgroundColor={ Colors.white.default } />
 			<KeyboardAvoidingView
 				style={ { flex: 1 } }
 				behavior='height'

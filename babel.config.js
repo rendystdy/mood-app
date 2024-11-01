@@ -6,7 +6,15 @@ module.exports = {
 			{
 				root: ['./src'],
 				extensions: ['.ios.js', '.android.js', '.js', '.ts', '.tsx', '.json'],
-				plugins: ['react-native-reanimated/plugin'],
+				plugins: [
+					'react-native-reanimated/plugin',
+					[
+						'babel-plugin-inline-import',
+						{
+							extensions: ['.svg'],
+						},
+					],
+				],
 				alias: {
 					'^@app/(.+)': './src/\\1',
 					'@components': './src/components',
